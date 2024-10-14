@@ -6,7 +6,7 @@ const discordTranscripts = require('discord-html-transcripts');
 const { Intents, Permission, Args, Add, ButtonBuilder, ActionRowBuilder, EmbedBuilder, ChannelType, PermissionsBitField, ModalBuilder, TextInputBuilder, ButtonStyle, Client, GatewayIntentBits, TextInputStyle, StringSelectMenuBuilder, UserSelectMenuBuilder } = require('discord.js');
 const { SPWorlds } = require('spworlds');
 const promocode = require('./promocode');
-const api = new SPWorlds({ id: '92e93595-8fa8-4178-a69c-4298e05912ab', token: 'S+VNvKLbAHnkavoC05xUHYR0/DBndek+' })
+const api = new SPWorlds({ id: 'null', token: 'null' })
 
 module.exports = {
   name: 'interactionCreate',
@@ -132,7 +132,7 @@ module.exports = {
             }
           ],
           redirectUrl: 'https://www.youtube.com/watch?v=WdzaVsGTic8',
-          webhookUrl: 'https://eohz4k5nc2jrf6p.m.pipedream.net',
+          webhookUrl: 'null',
           data: `${interaction.user.id}\n${usr.tovar}\n${interaction.channel.id}\n${usr.msg}`
         })
 
@@ -179,7 +179,7 @@ module.exports = {
             }
           ],
           redirectUrl: 'https://www.youtube.com/watch?v=WdzaVsGTic8',
-          webhookUrl: 'https://eohz4k5nc2jrf6p.m.pipedream.net',
+          webhookUrl: 'null',
           data: `${interaction.user.id}\n${usr.tovar}\n${interaction.channel.id}\n${usr.msg}`
         })
 
